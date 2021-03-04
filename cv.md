@@ -36,3 +36,38 @@ I work as a journalist, prepare content for websites also do some copyright and 
 - [It-Academy](https://www.dist.it-academy.by/)
 
 ---
+### 5. Sample code:
+```swift
+import UIKit
+
+class CountryCell: UITableViewCell {
+ 
+    var countryImageView = UIImageView()
+    var countryTitleLabel = UILabel()
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        addSubview(countryImageView)
+        addSubview(countryTitleLabel)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+```
+
+---
+###  6. Experience in programming:
+
+###### *This block is empty and has not been filled yet.*
+
+---
+### 7. Education:
+
+College - a teacher of English language faculty; the Institute of Journalism -  audiovisual mass media faculty; "Graduate School of the National Academy of Sciences of Belarus" - master's degree in art history; IOS developer course at high technology park.
+
+---
+### 8. English level:
+
+I studied at pedagogical college in English faculty so it is obvious that I had a lot of practical activities which I was involved in. You can say: “It was ten years ago” and you will be both right and wrong. I was practicing quite often during these years after the graduation while was writing content for mass media. So my level is about c1-c2 I suppose. 
